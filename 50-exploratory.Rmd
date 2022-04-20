@@ -1,0 +1,7 @@
+
+# 第５週：データの探索{#explore_data}
+
+
+別ページを参照してください。
+[https://infoart.ait231.tokushima-u.ac.jp/DS/docs/week5_plot.html](https://infoart.ait231.tokushima-u.ac.jp/DS/docs/week5_plot.html){target="_blank"}
+

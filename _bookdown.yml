@@ -1,0 +1,19 @@
+book_filename: "DS"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: " "
+output_dir: docs
+rmd_files:
+ - index.Rmd
+ - 2-requisite.Rmd
+ - 3-anaconda.Rmd
+ - 04-distribution.Rmd
+ - 05-exploratory.Rmd
+ - 06-test.Rmd
+ - 07-machinelearning.Rmd
+ - 08-modeling.Rmd
+ - 09-bayes.Rmd
+ - 10-kaggle.Rmd
+ - 11-groupwork.Rmd
+ 

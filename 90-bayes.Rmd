@@ -1,0 +1,5 @@
+# 第９週：ベイズ推定{#byayes}
+
+
+別ページを参照してください。
+[https://infoart.ait231.tokushima-u.ac.jp/DS/docs/week9.html](https://infoart.ait231.tokushima-u.ac.jp/DS/docs/week9.html){target="_blank"}

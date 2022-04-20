@@ -1,0 +1,7 @@
+
+# 第７週：機械学習{#machinelearning}
+
+
+別ページを参照してください。
+[https://infoart.ait231.tokushima-u.ac.jp/DS/docs/week7.html](https://infoart.ait231.tokushima-u.ac.jp/DS/docs/week7.html){target="_blank"}
+

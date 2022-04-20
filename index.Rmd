@@ -1,0 +1,274 @@
+
+--- 
+title: "大学院データサイエンス"
+author: "デザイン型AI教育研究センター　石田基広"
+date: ""
+site: bookdown::bookdown_site
+
+---
+
+
+# 第１週：オリエンテーション{#orientation}
+
+```{r setup_chap1, echo=FALSE}
+knitr::opts_chunk$set(cache=TRUE)
+```
+
+
+If you find it difficult to read Japanese texts, do not hesitate to use a translation service, like https://www.deepl.com
+ 	
+## ２０２２年度授業の進め方について{#ds2022}
+
+
+大学院共通科目「データサイエンス」は全１５回のうち、最初の１０回を講義、最後の５回を演習として開講します。
+学期末テスト期間中に、前半１０回の講義についての筆記試験を課します。 
+
+ 
+なお、本年度は、コロナウイルスの感染拡大対策のため、４月１５日から６月２４日までの１０回の講義については、キャンパスの教室での授業は行いません。この間の講義は、各自が、manaba で指定されたコンテンツ（このページ）にアクセスし、コンテンツごとに指定された課題（あるいは小テスト）を期限内に回答することで出席したものとみなします。
+ 
+
+## 講義について{#support}
+
+授業時間帯（金曜日９・１０時限）に、クラスごと教員が動画配信あるいは、WEB上のコンテンツを指定します。受講生は、クラスごとに指示されたコンテンツにアクセスし、小テストを受験してください。なお、動画配信は MicroSoft Teams を利用します。会議 MicroSoft Teams の利用方法は、ここを参照してください。
+
+[MicroSoft Teams](https://www.ait.tokushima-u.ac.jp/ait-cont/doc/manual/software/Office365-Teams-join.pdf ){target=_blank}
+
+
+ただし、受講生を専攻ごとに３つのクラスに分け、それぞれのクラスごとに教員が配置されます（ただし、留学生の皆様は全員Cクラスの所属とします。） 
+
+## クラス分けについて{#class}
+
+
+受講生を専攻ごとに３つのクラスに分け、それぞれのクラスごとに教員が配置されます。ただし、留学生の皆様は全員Cクラスの所属とします。
+
+それぞれのクラスごとに、クラス担当教員から指示されたコンテンツにアクセスしてください。 なお、必ず大学のCアカウントを利用してログインしてください。本人確認ができない場合、出席と認められないこともあります。
+
+Students will be divided into three classes according to their majors. However, **all international students will belong to Class C.**
+
+For each class, please access the contents as instructed by the class instructor. Please be sure to log in using your university C account. If your identity cannot be verified, your attendance may not be recognized.
+
+
+### A Class{#classA}
+
+- 生物資源
+    - 応用生命科学コース
+    - 食料生物科学コース
+    - 生物生産科学コース（ただし、留学生はふくまれない）
+- 地域創成
+    - 臨床心理学専攻
+    - 地域創成専攻　　　（ただし、留学生はふくまれない）
+- 理工学
+    - 社会基盤デザインコース
+    - 応用化学システムコース
+
+以上の受講生の担当教員は　石田　基広　(ISHIDA Motohiro)です。　
+
+[Aクラスの会議室](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDU1Y2RlYTEtNmFkYS00NWNiLTgyNDctMDhiMmM2ZDM3OTEy%40thread.v2/0?context=%7b%22Tid%22%3a%228671c3a4-4538-47f6-8717-16a1d6b0ca98%22%2c%22Oid%22%3a%22b2357fe5-a3cb-4f3c-9244-d114b082b31b%22%7d){target=_blank}
+ 
+### B Class{#classB}
+
+- 理工学
+    - 機械科学コース
+    - 情報システムコース
+    - 数理科学コース
+    - 自然科学コース
+
+
+以上の受講生の担当教員は　谷岡　広樹　(TANIOKA Hiroki) です。　
+
+[Bクラスの会議室](https://uss.ait.tokushima-u.ac.jp/?id=5LGc1Hbz){target=_blank}
+
+
+
+### C Class{classC}
+
+- 理工学
+    - 光システムコース
+    - 電気電子システムコース
+    - 留学生（すべての専攻、コース）
+
+以上の受講生の担当教員は　宋　天 (SONG Tian) です。
+
+[Cクラスの会議室](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWFkNDc2NDItZjlmOC00ZDkzLWExZDMtZTg5ZGViZDYxMzU1%40thread.v2/0?context=%7b%22Tid%22%3a%228671c3a4-4538-47f6-8717-16a1d6b0ca98%22%2c%22Oid%22%3a%22aa3ea8b4-8184-440f-8c77-d3a3ffae2f1e%22%7d){target=_blank}
+
+会議システム MicroSoft Teams の利用方法は、ここを参照してください。
+
+[MicroSoft Teams](https://www.ait.tokushima-u.ac.jp/ait-cont/doc/manual/software/Office365-Teams-join.pdf){target=_blank}
+
+
+
+
+## データサイエンスとはなにか{#backgrounds}
+
+
+
+
+この授業では、分野や業界を問わず、データを活用して新しい知見を得たり意思決定を行うのに必要となる知識や技術の基礎を解説する。
+いわゆる理系であれ文系であれ、現代ではエビデンスに基づく判断が強く求められている。エビデンス (evidence) とは根拠のことである。
+Evidence-Based という表現がある。例えば EBM(Evidence-Based Medicine：エビデンスに基づく医療) や **EBPM** (Evidence-Based Policy Making：エビデンスに基づく政策決定) という略語がしばしば使われる。
+EBPM はアメリカのオバマ大統領政権下で2016年に超党派の議員の賛成で可決された「エビデンスに基づく政策立案評議会法(Commission on Evidence-based Policymaking Act of 2016)」で有名になった。
+
+[外部サイト：アメリカ議会のサイト](https://www.congress.gov/bill/114th-congress/house-bill/1831/text){target="_blank"}
+
+
+
+過去の政治は、予算を使いみちのアイデアを提案することが重要であり、その予算が効果的に使われたかどうかはほとんど検証されていなかった。
+これに対してEBPMでは、政策の効果を検証することがより重要だとしている（背景にはアメリカ政府の財政難もある）。2019年のノーベル経済学賞を受賞した業績も Evidence-Based と無縁ではない。アビジット・バナジー氏、エステール・デュフロ氏、マイケル・クレマー氏の3人は「ランダム化比較試験（RTC）」という研究方法を応用し、開発途上国での教育支援に有効な施策を実験と検証で明らかにしている。
+
+[外部サイト：独立行政法人 国際協力機構](https://manaba.lms.tokushima-u.ac.jp/ct/link_iframe_balloon?url=https%3A%2F%2Fwww.jica.go.jp%2Ftopics%2F2019%2F20191204_01.html){target="_blank"}
+
+こうした法案や実験検証でエビデンスという場合、それはデータを指している。ある施策による効果の大きさを実際に観察した数値にもとづいて検証するわけである。
+「ボランティアのおかげで社会が良くなった」とか「教科書の無料配布のおかげで進学できた」とかいう声は非常に重要であるが、それだけでは全体として効果があったかどうかは判断できない。施策を評価する人がいるというだけであり、そのような声は施策の提案者や業者から出てきている可能性もある。
+Evidence-Based という場合、それは Data-Driven と、いいかえることもできる。データにもとづいて判断する、意思決定するという意味である。
+
+なお、データサイエンスにおける「データ」の意味については、第２週で説明するが、
+データは集合（セット）としても考えられる。例えば、国家というセットには、日本とか中国とかアメリカという要素があり、日本というサブセットには東京とか大阪という要素がある。さらに小さくみると、東京都を構成するのは会社などの組織、あるいは人である。つまり 国 ＞ 日本 ＞ 東京 ＞ 会社 ＞ 人 などと分類できる。データの分類の細かさを 粒度 granularity などという言葉を使うこともある。
+
+
+## 人工知能{#AI}
+
+一方、応用が急速にすすんでいる人工知能(AI)分野では、データが重要な役割をはたしている。
+人工知能は、簡単にいえば人間の思考や判断を機械で実現するための理論や技術のことである。
+
+最近では、囲碁の世界チャンピオンに人工知能が勝利したことが話題になった。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8tq1C8spV_g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+（英語の聞き取りが苦手であれば、画面右下のメニューから「字幕」をOnにするとよい）
+
+この人工知能は、Googleが主体となって開発した AlphaGo というソフトウェアである。
+人工知能の分野では機械学習という技術が使われているが、AlphaGo は機械学習で主流となっている深層学習（ディープラーニング）という技術が使われている。
+
+[外部サイト：AI・機械学習・ディープラーニングがしたい！ そもそも何ができるの？](https://www.atmarkit.co.jp/ait/articles/1804/16/news137.html){target="_blank"}
+
+
+人工知能の研究はこれまでに何度かのピークがあり、2006年頃からを第三次人工知能ブームと呼ぶ。
+
+
+[外部サイト：ウィキペディア「人工知能」](https://ja.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%81%AE%E6%AD%B4%E5%8F%B2){target="_blank"}
+
+
+
+これ以前の第二次人工知能ブーム(1980年台)では人間が知識をルールとして整備することを目指していたが、
+この方法では人間の思考や判断を網羅することはとてもできなかった。典型的な例は人間の言語である（自然言語という）。
+日本語の文法と単語をいくらインプットしてもすれば自動翻訳は実現できなかったのである。これにはさまざまな理由があるが、
+1つには人間の言語があまりに曖昧だったためである。例えば「かれがくるまでまつ」といわれた場合、これは「彼が来るまで待つ」ということだろうか、
+あるいは「彼が車で待つ」だろうか。どちらが正しいかを人間は文脈から判断するが、文脈は、話の時間的前後関係だけでなく、話し手と聞き手の過去のいきさつなど、多様な状況があるため、これらをすべて機械にインプットするわけにはいかない。
+
+[外部サイト：ウィキペディア「機械翻訳」](https://ja.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%81%AE%E6%AD%B4%E5%8F%B2){target="_blank"}
+
+実は、これを解決するシンプルな方法がある。
+それは、過去に記録された言葉のデータベースから「かれがくるまでまつ」を探し出し、「彼が来るまで待つ」と「彼が車で待つ」のどちらの用法が多かったか、を調べることである。
+仮に前者の用例が7割で、後者が3割であったと分かれば、いま新たに「かれがくるまでまつ」という文があった場合、それは「彼が来るまで待つ」を表している確率が高いと判断できる。これがデータで判断するということの例である（ただし、現代の自動翻訳はこれほど単純な方法で実現されているわけではない）。
+そして、過去のデータベースの量が多ければ多いほど、正しく判断できる確率も高くなる。
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/auJJrHgG9Mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## ビッグデータ{#bigdata}
+
+
+コンピュータの処理能力が上がり、また記憶容量も非常に大きくなっている現代では、言葉のデータベース（コーパスともいう）だけでなく、さまざまなデータが大量に保存されている。
+例えばコンビニエンスストアでは、いつどこで何が買われたかを購入者の属性（年齢や性別）と関連付けて保存している（POSシステム）。
+
+POSシステムとは、お客が何月何日何時何分、どこの店で何を購入したか、そのお客の属性（性別や年齢）を記録するシステムである。
+コンビニエンスストアやスーパーでは、こうした情報を分析し、よく売れる商品の確認やサービス、商品の開発を積極的に進めている。
+有名な例として、アメリカの大手スーパーがPOSデータを分析したところ、休日前になると「ビール」とあるものがセットで買われていることを発見したという事例がある。
+（小テスト：ビールとセットで売れた商品はなんであろうか。あとで小テストに回答のこと。）
+また、コンビニのカード、あるいはスマホアプリを使って購入する客の履歴データから、ある商品は同じ客に何度も繰り返し購入されていることもわかる。
+コンビニ業界にとって、リピート客は重要なターゲットである。
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A4dG9tGLFKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+さらには、ほとんどの車にはカーナビが搭載され、どの時間帯にどれくらいの車が通行していたかを知ることのできるデータが記録され続けている。
+世界中の車が、何時何分何秒にどこを通過したというデータが毎日、保存されている。
+
+こうした膨大なデータを **ビッグデータ** という。
+[外部サイト：総務省](https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h24/html/nc121410.html){target="_blank"}
+
+
+ビッグデータの活用は、さまざまな分野で従来なかったようなサービスや技術を生み出している。
+
+## 画像認識
+
+
+すでに実用されている技術としては、画像認識がある。
+FacebookやGoogleフォトなどを使っていると、アップロードした画像が自動的に分類されるだろう。
+また、コンビニなどでの顔認証による支払いも導入が進んでいる。
+ネット通販Amazonでは、入店した客が商品を選び、会計をすませて店を出るまでの処理を完全に無人化した店舗を展開している。
+[外部サイト：Amazon](https://www.amazon.jobs/jp/business_categories/amazongo){target="_blank"}
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NrmMk1Myrxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+AmazonGoは、商品にタグがついてわけではなく、店舗に設置された多数のカメラが、客の顔を認識し、客が手に取って購入を決めた（と判断される）商品をリストアップし、
+出店とともに、登録済みのキャッシュカードから引き落とす仕組みである。
+
+（なお、キャッシュレス決済については、クレジットカードを持たない人に対する差別であるという意見があり、現在AmazonGoの店舗には従業員が配置され、キャッシュでの決済も行っている。）
+
+
+
+画像認識は、深層学習（ディープラーニング）という技術が使われることが多くなり、正確な分類を行うことができるようになっている。ただし、深層学習が正しい処理をおこなうためには、大量のデータが必要になる。このため、問題が単純な場合には、深層学習よりもシンプルな分析手法を使ったほうが効率がよいこともある。
+
+
+## AIとデータサイエンス{#AI_DS}
+
+画像認識の技術は、一般には AI とも呼ばれている。
+AI は、人間の知能を機械で再現しようとして発達した技術である。例えば、で画像認識の技術では、人間が目から入ってきた情報を処理する機能を再現したといえる。
+この他、人間の言語能力に代わる機械翻訳や、 耳から入る情報の処理を機械的に実現しようとする音声認識なども AI と呼ばれる。
+
+AI とデータサイエンスは、もともとは別々に発展してきた分野であるが、最近は同じ意味で使われることも多い。
+それは、応用面で AI とデータサイエンスは目的や方法が共通するからである。
+AI 研究の初期の頃は、人間の知能がどのようなモデルで、どのようにプログラミングすれば再現できるかに注目して研究が進められてきた。
+しかしながら、最近の AI 研究では、機械学習と呼ばれる手法が多用されるようになり、データを用いて問題を解決しようという考え方が中心となっているからである。
+
+機械学習は、確率・統計の概念を用いて、データを分類する、あるいはデータから将来を予測するための強力なツールである。
+一方で、データサイエンスでは、かつて得られるデータが少なかった頃に発展してきた統計的手法が使われることも多い。
+
+この授業では、データサイエンスとして、狭い意味での統計学から人工知能分野までの広い範囲の理論や方法、そして応用を取り上げて解説する。
+
+
+## 小テストについて
+
+このコンテンツを読んだあと、大学の授業用サイトである [manabaの「データサイエンス」ページ](https://manaba.lms.tokushima-u.ac.jp/ct/course_221067){target="_blank"} に戻り、
+**「第１週小テスト（全員かならず回答すること）」**
+を回答すること。回答したことで、第一週の講義に出席したものとする。
+
+なお、この授業ではPythonというプログラミング言語を使って、データ分析の実習も行う予定である。そのため、受講生はそれぞれ、自分のパソコンにPythonをインストールしておくことが求められる。
+
+このサイトのコンテンツの第３週「データサイエンスで必要となる技能」に Python の導入についての説明があるので、５月１日までに、各自、Pythonのインストールを済ませておくように。
+
+わからないことがあれば、大学の授業用サイトである manaba の掲示板にスレッドを立てて質問をすること。
+
+
+
+
+```{r echo=FALSE, include=FALSE,message=FALSE}
+library(tidyverse)
+##  日本語の表示に必要な設定
+
+if (.Platform$pkgType == "mac.binary"){
+    quartzFonts(HiraMaru=quartzFont(rep("HiraMaruProN-W4", 4)))
+    theme_set(theme_grey(base_family = "HiraMaru"))
+} else if (.Platform$pkgType == "win.binary"){
+    windowsFonts(JP1=windowsFont("MS Gothic"),JP2=windowsFont("MS Mincho"),JP3=windowsFont("Meiryo"))
+    theme_set(theme_grey(base_family = "JP1"))
+}else {
+##  $ fc-list :lang=ja
+    theme_set(theme_gray(base_size = 12, base_family=""))
+}
+
+# install.packages("bookdown")
+# or the development version
+# devtools::install_github("rstudio/bookdown")
+```
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

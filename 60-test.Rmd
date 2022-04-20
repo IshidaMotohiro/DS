@@ -1,0 +1,7 @@
+
+# 第６週：統計的検定{#test}
+
+
+別ページを参照してください。
+[https://infoart.ait231.tokushima-u.ac.jp/DS/docs/week6.html](https://infoart.ait231.tokushima-u.ac.jp/DS/docs/week6.html){target="_blank"}
+
